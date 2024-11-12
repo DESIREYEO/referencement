@@ -1,0 +1,39 @@
+.hover-underline-scrolled:hover {
+    text-decoration: underline;
+    text-decoration-color: #E97400;
+    text-underline-offset: 10px; /* Adjust the offset as needed */
+    text-decoration-thickness: 2px; /* Adjust the thickness as needed */
+  }
+  
+  .hover-underline-default:hover {
+    text-decoration: underline;
+    text-decoration-color: #FFFFFF;
+    text-underline-offset: 10px; /* Adjust the offset as needed */
+    text-decoration-thickness: 2px; /* Adjust the thickness as needed */
+  }
+
+  .ButtonMediumContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ButtonMedium {
+    height: 3.75rem;
+    width: 15rem;
+    background-color: #E97400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #FFF;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 600;
+  }
+  
+  .ButtonMediumHoverScroll {
+    background-color: #FFF;
+    border-width: 2px;
+    border-color: #E97400;
+    color: #000;
+  }

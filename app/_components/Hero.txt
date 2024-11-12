@@ -1,0 +1,54 @@
+'use client';
+import React from 'react';
+import Image from 'next/image';
+import { useRouter } from 'next/navigation';
+
+
+function Hero() {
+  const router = useRouter();
+
+
+  /*
+ <div className="px-10 mx-10">
+        <div className="px-10 mx-6">
+          <div className="py-5 flex justify-between items-center">
+
+  */
+
+  return (
+    <section
+      className=""
+      style={{
+        background: 'linear-gradient(90deg, rgba(255, 251, 247, 0.00) 25.09%, rgba(255, 151, 48, 0.75) 75.09%)',
+        marginTop: '9%'
+      }}
+    >
+      <div className="px-10 mx-10">
+        <div className="px-10 mx-6">
+          <div className="grid gap-8 grid-cols-2 ">
+            <div className="">
+              <h1>
+                BIENVENUE SUR BAKKRO
+              </h1>
+              <p className="mt-4 text-gray-600">
+                Une description du site, Une accroche qui va pousser les internautes à visiter le site. Voir même Inscrire sur le site.
+              </p>
+
+              <div className=' flex flex-row' style={{marginTop:''}} >
+                <a href="https://apps.apple.com/fr/app/airbnb/id401626263" target="_blank" rel="noopener noreferrer">
+                  <Image src="/appStoreBadge.svg" alt="Download on the App Store" width={150} height={50} />
+                </a>
+                <a href="https://play.google.com/store/search?q=airbnb&c=apps" target="_blank" rel="noopener noreferrer">
+                  <Image src="/playStoreBadge.svg" alt="Get it on Google Play" width={150} height={50} style={{ marginLeft: '30px' }} />
+                </a>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Hero;
